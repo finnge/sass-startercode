@@ -27,6 +27,12 @@
     background-image: url(../images/NGC_2818_by_the_Hubble_Space_Telescope.jpg);
     background-position: center;
     background-size: cover;
+    transition: height $trans-mid ease;
+
+    @media only screen and (min-width: $vp-small) {
+        max-height: 80vh;
+        height: 500px
+    }
 
     &__headline{
         max-width: 80vw;
