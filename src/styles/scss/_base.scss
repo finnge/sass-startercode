@@ -1,0 +1,70 @@
+body {
+    font-family: $font-family-sans;
+    font-size: $base-font-size;
+    line-height: $lh-default;
+    font-weight: $fw-normal;
+    padding: $m;
+    hyphens: auto;
+    color: $text-color;
+    background-color: $bg-color;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+main {
+    max-width: 50rem;
+    /*margin-left: 20rem;*/
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+blockquote {
+    margin-bottom: 1.4em;
+}
+
+blockquote {
+    font-family: $font-family-serif;
+    color: $text-color;
+
+    &:before {
+        content: "«";
+        padding-right: 0.1em;
+    }
+
+    &:after {
+        content: "»";
+        padding-left: 0.1em;
+    }
+}
+
+
+h1,
+h2,
+h3,
+h4 {
+    line-height: $lh-tight;
+    font-weight: $fw-bold;
+}
+
+
+h1 {
+    font-size: $xl;
+}
+
+h2 {
+    font-size: $l;
+}
+
+h3 {
+    font-size: $m;
+}
+
+
+section {
+    margin-bottom: $m;
+}

@@ -1,0 +1,51 @@
+// Sizes
+$xs: 7px;
+$s: 11px;
+$m: 18px;
+$l: 29px;
+$xl: 47px;
+
+
+// Font Properties
+$font-family-serif: PTserif;
+$font-family-sans: PTsans;
+$base-font-size: $m;
+$font-icons: 'Material Icons';
+
+
+// Font Weights
+$fw-light: 300;
+$fw-normal: 400;
+$fw-bold: 600;
+
+
+// Line Heights
+$lh-tight: 100%;
+$lh-default: 130%;
+$lh-loose: 150%;
+
+
+// Colors
+$dark: #666;
+$darker: #333;
+$darkest: #000;
+$darken: rgba(0,0,0,0.3);
+
+$light: #ddd;
+$lighter: #eee;
+$lightest: #fff;
+
+$Illustration-1-hex: #F25764;
+$Illustration-2-hex: #1570BF;
+$Illustration-3-hex: #71A8D9;
+$Illustration-4-hex: #F2B705;
+$Illustration-5-hex: #F29F05;
+
+// Funktionale Farben
+$text-color: $light;
+$bg-color: $darker;
+$deco-color: $Illustration-5-hex;
+
+
+// misc
+$border-width: 2px;
