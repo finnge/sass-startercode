@@ -1,8 +1,8 @@
 .marginalie {
-    font-family: $font-family-serif;
-    color: $deco-color;
     padding-left: $m;
     border-left: $border-width solid $deco-color;
+    color: $deco-color;
+    font-family: $font-family-serif;
     /*padding-left: 1em;
     padding-right: 1em;
     width: 20rem;
@@ -10,4 +10,21 @@
     margin-left: -20rem;
     margin-bottom: 0;
     text-align: right;*/
+}
+
+.main-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: (-$m) (-$m) ($m) (-$m);
+    padding: $m;
+    height: 100vh;
+    background-image: url(../images/NGC_2818_by_the_Hubble_Space_Telescope.jpg);
+    background-position: center;
+    background-size: cover;
+
+    &__headline{
+        max-width: 80vw;
+        text-shadow: 0 0 20px rgba(0, 0, 0, 0.75);
+    }
 }
