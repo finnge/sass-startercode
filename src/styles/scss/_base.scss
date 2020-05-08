@@ -1,21 +1,16 @@
 body {
-    font-family: $font-family-sans;
-    font-size: $base-font-size;
-    line-height: $lh-default;
-    font-weight: $fw-normal;
     padding: $m;
-    hyphens: auto;
-    color: $text-color;
     background-color: $bg-color;
+    color: $text-color;
+    hyphens: auto;
+    font-weight: $fw-normal;
+    font-size: $base-font-size;
+    font-family: $font-family-sans;
+    line-height: $lh-default;
 }
 
 * {
     box-sizing: border-box;
-}
-
-main {
-    max-width: 50rem;
-    /*margin-left: 20rem;*/
 }
 
 h1,
@@ -28,17 +23,17 @@ blockquote {
 }
 
 blockquote {
-    font-family: $font-family-serif;
     color: $text-color;
+    font-family: $font-family-serif;
 
     &:before {
-        content: "«";
         padding-right: 0.1em;
+        content: "«";
     }
 
     &:after {
-        content: "»";
         padding-left: 0.1em;
+        content: "»";
     }
 }
 
@@ -47,8 +42,8 @@ h1,
 h2,
 h3,
 h4 {
-    line-height: $lh-tight;
     font-weight: $fw-bold;
+    line-height: $lh-tight;
 }
 
 
